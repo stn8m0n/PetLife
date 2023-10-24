@@ -50,8 +50,23 @@ h2 {
 
 .botao {
     background-color: #ff725e;
+    border-radius: 8px;
+    color: #ffffff;
     /*vertical, horizontal*/
     padding: 16px 32px;
-    border-radius: 8px;
     text-decoration: none;
+}
+
+.botao-transparente {
+    background-color: transparent;
+    color: #ff725e;
+    padding: 16px, 32px;
+    text-underline-offset: 4px;
+}
+
+.absolute {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
