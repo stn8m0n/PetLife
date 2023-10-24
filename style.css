@@ -52,4 +52,6 @@ h2 {
     background-color: #ff725e;
     /*vertical, horizontal*/
     padding: 16px 32px;
+    border-radius: 8px;
+    text-decoration: none;
 }
