@@ -135,8 +135,8 @@ h2 {
 footer {
     background-color: rgba(255,152, 108, 0.25);
     display: flex;
-    gap: 80px;
-    padding: 64px 80px;
+    gap: 50px;
+    padding: 40px 60px;
 }
 
 footer img,
@@ -162,11 +162,15 @@ footer p a {
 #copyright {
     background-color: #263138;
     color: #ffffff;
-    padding: 24px;
+    padding: 12px;
     text-align: center;
 
 }
 
 #copyright a {
     color: #ff9a6c;
+}
+
+#copyright img{
+    border-radius: 70px;
 }
